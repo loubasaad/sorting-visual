@@ -46,15 +46,16 @@ These specifications are the following:
   
 
     Chunck of a Pseudo-code to use for a quick demonstration:
+PS: New line after each '/'
 "
 max = 6
-j = 3
-if 7 == 7
-for i in range of 2
-swap a[0] a[2]
-swap a[max] a[max-1]
-end of for
-end of if
+/ j = 3
+/ if 7 == 7
+/ for i in range of 2
+/ swap a[0] a[2]
+/ swap a[max] a[max-1]
+/ end of for
+/ end of if
 "
 
 
