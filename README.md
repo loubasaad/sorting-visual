@@ -35,3 +35,12 @@ As previously seen, the algorithm starts by taking the number that the user want
   To fully understand how the program works, it is essential to mention that the program has a global variable which is ‘nextLine’. This variable is updated by each handler function to keep track of which line the program has reached so far. This variable proved to be very essential for the loop which exists in the main function, and which iterates over the lines of the algorithm to process them. 
 
 
+    Algortithm's Pseudo-code specificiations:
+While implementing the parser side of our program, one key decision I faced was to decide about the syntax I would like the user to use in his algorithm’s pseudo-code. In other words, I needed to set the constraints I would put on the user. 
+These specifications are the following:
+  a)	The array of numbers that are subject to swapping must be addressed as ‘a[int or expression]’. If the user uses an array name different than ‘a’, the program would consider it as a variable. Such decision comes from the fact that I wanted to make it very generic, but I put ‘a’ instead of ‘array’ to make it less cumbersome.
+  b)	The loop must be written like Python’s way of writing it. Also, it must end with the line ‘end of for’. Also, the for-loop is the only way that we implemented for loops, so the user cannot use the while or the do-while.
+  c)	The decision must be ‘if decision’. Also, it must end with the line ‘end of if’.
+  d)	Between each two words, there must be a space.
+  e)	To make a swapping of two elements, the user must use the syntax: swap ‘1st element’ ‘2nd element’.
+
