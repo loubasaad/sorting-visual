@@ -43,4 +43,18 @@ These specifications are the following:
   c)	The decision must be ‘if decision’. Also, it must end with the line ‘end of if’.
   d)	Between each two words, there must be a space.
   e)	To make a swapping of two elements, the user must use the syntax: swap ‘1st element’ ‘2nd element’.
+  
+
+    Chunck of a Pseudo-code to use for a quick demonstration:
+"
+max = 6
+j = 3
+if 7 == 7
+for i in range of 2
+swap a[0] a[2]
+swap a[max] a[max-1]
+end of for
+end of if
+"
+
 
