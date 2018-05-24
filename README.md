@@ -55,7 +55,8 @@ PS: New line after each '/'
 / end of if
 / k = max
 / for i in range of 2
-/ swap a[k] a[k-1]
+/ swap a[k] a[j]
+/ swap a[max] a[1]
 / end of for
 / max = j
 "
